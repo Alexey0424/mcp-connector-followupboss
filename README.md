@@ -1,4 +1,4 @@
-# Follow Up Boss MCP Connector
+# MCP Connector - Follow Up Boss
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
 ![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?logo=cloudflareworkers&logoColor=white)
