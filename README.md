@@ -8,6 +8,10 @@
 ![Zod](https://img.shields.io/badge/Zod-3E67B1?logo=zod&logoColor=white)
 ![Tests](https://img.shields.io/badge/tests-46_passing-brightgreen)
 
+<p align="center">
+  <img src="assets/hero.png" alt="A sales team chats with an AI assistant, which reaches their real-estate CRM through a secure cloud gateway — the MCP connector" width="100%">
+</p>
+
 A remote [MCP](https://modelcontextprotocol.io) server on Cloudflare Workers that lets a real-estate sales team talk to their CRM ([Follow Up Boss](https://www.followupboss.com)) from Claude — web and mobile, no install, no API keys in anyone's hands.
 
 A closer asks *"How did I do today?"* and Claude answers from live CRM data: their calls (with the AI call summaries already logged on each call), the notes they wrote, their texts, an exact numeric summary. Two managers get an account-wide view — team leaderboard, per-closer drill-down, live pipeline by stage — from the same connector, gated by role. Everything is **read-only** and every request is **scoped server-side to the signed-in user**.
