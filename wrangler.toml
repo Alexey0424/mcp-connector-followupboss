@@ -1,0 +1,22 @@
+name = "fub-connector"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+ALLOWED_EMAIL_DOMAIN = "acmehomebuyers.example"
+ACCOUNT_TZ = "America/New_York"
+MANAGER_EMAILS = "marco@acmehomebuyers.example,alexey@acmehomebuyers.example"
+
+# Create your own namespace: npx wrangler kv namespace create OAUTH_KV
+[[kv_namespaces]]
+binding = "OAUTH_KV"
+id = "your-kv-namespace-id"
+
+[[durable_objects.bindings]]
+name = "MCP_OBJECT"
+class_name = "FubMcp"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["FubMcp"]
