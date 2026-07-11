@@ -9,7 +9,7 @@
 ![Tests](https://img.shields.io/badge/tests-46_passing-brightgreen)
 
 <p align="center">
-  <img src="assets/hero.png" alt="A sales team chats with an AI assistant, which reaches their real-estate CRM through a secure cloud gateway — the MCP connector" width="100%">
+  <img src="assets/hero.jpg" alt="A sales team chats with an AI assistant, which reaches their real-estate CRM through a secure cloud gateway — the MCP connector" width="100%">
 </p>
 
 A remote [MCP](https://modelcontextprotocol.io) server on Cloudflare Workers that lets a real-estate sales team talk to their CRM ([Follow Up Boss](https://www.followupboss.com)) from Claude — web and mobile, no install, no API keys in anyone's hands.
